@@ -1,9 +1,9 @@
 export class Argument {
-    aliasCharacter:string;
-    callback:Function;
+    name:string;
+    argAlias:string;
 
-    constructor (aliasCharacter:string, callback:Function) {
-        this.aliasCharacter = aliasCharacter,
-        this.callback = callback
+    constructor (name:string, argAlias:string) {
+        this.argAlias = argAlias;
+        this.name = name;
     };
 };

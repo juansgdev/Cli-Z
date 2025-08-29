@@ -4,11 +4,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
+    "start": "tsc && node dist/src/Utils.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "juansgdev",
   "license": "ISC",
-  "description": "A simply & fast lib to create command line apps."
+  "description": "A simply & fast lib to create command line apps.",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }
